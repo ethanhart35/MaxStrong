@@ -1,2 +1,0 @@
-# MaxStrong
-Fitness App
