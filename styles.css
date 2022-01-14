@@ -171,3 +171,32 @@
   .icon-container img {
     width: 17px;
   }
+
+   .footer {
+  margin: 50px 0;
+}
+
+li {
+  margin: 35px;
+  list-style: none;
+}
+
+li>a {
+  text-decoration: none;
+  color: #111235;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 21px;
+}
+
+input {
+  border: 1px solid #111235;
+  border-radius: 13px;
+  height: 40px;
+  width: 255px;
+  padding-left: 15px;
+}
