@@ -163,7 +163,7 @@
   
   .icon {
     margin: 10px 10px;
-    background: red;
+    background: rgba(128,173,245,.2);
     width: 20px;
     border-radius: 20px;
   }
