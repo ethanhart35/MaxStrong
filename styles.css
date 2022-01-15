@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Hellix';
     src: url('https://assets.codepen.io/6060109/Hellix-Medium.ttf') format('truetype');
@@ -6,174 +7,158 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    min-height: 100vh;
-    min-width: 100%;
-    font-family: Hellix;
-    color: #111235;
-    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
-  }
-  
-  .top-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 75px;
-    background-color: #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  h1 {
-    font-size: 64px;
-    font-weight: 500;
-    margin: 40px 0 20px 0;
-    line-height: 75px;
-    padding: 0 20px;
-  }
-  
-  h2 {
-    font-size: 36px;
-    font-weight: 500;
-  }
-  
-  h3 {
-    font-size: 48px;
-    line-height: 58px;
-    font-weight: 500;
-    padding: 0 20px;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 0 20px;
-  }
-  
-  .bold {
-    font-weight: bold;
-  }
-  
-  .btn {
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    width: 250px;
-    padding: 20px 0;
-    border-radius: 50px;
-    margin: 30px auto 0 auto;
-    background-color: #FFFFFF;
-    color: #436BAA;
-    font-size: 16px;
-    font-weight: 600;
-  }
-  
-  .btn-primary {
-    background-color: #4B5092;
-    color: #FFFFFF;
-  }
-  
-  .content-section-container {
-    margin: 40px 0 120px 0;
-    text-align: center;
-  }
-  
-  .blue-bg {
-    background: #F2F8FF;
-    text-align: left;
-    padding: 50px 0;
-    margin-top: 29px;
-  }
-  
-  .blue-bg h3 {
-    margin-bottom: 20px;
-  }
-  
-  .gradient {
-    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
-  }
-  
-  .gradient img {
-    margin-bottom: -3px;
-  }
-  
-  .gradient h3 {
-    padding-top: 80px;
-  }
-  
-  #arnold-exp {
-    font-size: 18px;
-    font-weight: 500;
-    margin: 10px 0 30px 0;
-  }
-  
-  .panel-container {
-    text-align: left;
-  }
-  
-  .panel {
-    margin: 20px 16px;
-    padding: 50px 50px 50px 40px;
-    border-radius: 30px;
-  }
-  
-  .panel p {
-    padding: 0;
-    width: 85%;
-  }
-  
-  .content-section-container .btn {
-    margin-top: 40px;
-  }
-  
-  .panel-container h3 {
-    margin: 50px 0 40px 0;
-  }
-  
-  h4 {
-    margin: 0 40px 20px 0;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 29px;
-  }
-  
-  .blue-panel {
-    background: #E4F0FF;
-  }
-  
-  .pink-panel {
-    background: rgba(114, 122, 239, 0.1);
-  }
-  
-  .bottom-menu {
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-  }
-  
-  .icon-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .icon {
-    margin: 10px 10px;
-    background: rgba(128,173,245,.2);
-    width: 20px;
-    border-radius: 20px;
-  }
-  
-  .icon-container img {
-    width: 17px;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-   .footer {
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: Hellix;
+  color: #111235;
+  background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  background-color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  margin: 40px 0 20px 0;
+  line-height: 75px;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 250px;
+  padding: 20px 0;
+  border-radius: 50px;
+  margin: 30px auto 0 auto;
+  background-color: #FFFFFF;
+  color: #436BAA;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #4B5092;
+  color: #FFFFFF;
+}
+
+.content-section-container {
+  margin: 40px 0 120px 0;
+  text-align: center;
+}
+
+.blue-bg {
+  background: #F2F8FF;
+  text-align: left;
+  padding: 50px 0;
+  margin-top: 29px;
+}
+
+.blue-bg h3 {
+  margin-bottom: 20px;
+}
+
+.gradient {
+  background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+
+.gradient img {
+  margin-bottom: -3px;
+}
+
+.gradient h3 {
+  padding-top: 80px;
+}
+
+#arnold-exp {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 30px 0;
+}
+
+.panel-container {
+  text-align: left;
+}
+
+.panel {
+  margin: 20px 16px;
+  padding: 50px 50px 50px 40px;
+  border-radius: 30px;
+}
+
+.panel p {
+  padding: 0;
+  width: 85%;
+}
+
+.content-section-container .btn {
+  margin-top: 40px;
+}
+
+.panel-container h3 {
+  margin: 50px 0 40px 0;
+}
+
+h4 {
+  margin: 0 40px 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+}
+
+.blue-panel {
+  background: #E4F0FF;
+}
+
+.pink-panel {
+  background: rgba(114, 122, 239, 0.1);
+}
+
+.bottom-menu {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer {
   margin: 50px 0;
 }
 
@@ -194,10 +179,43 @@ h5 {
   margin-bottom: 21px;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-circle {
+  margin: 24px 10px;
+  background: rgba(128,173,245,.2);
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container img {
+  width: 60%;
+  margin: 20% auto;
+}
+
 input {
-  border: 1px solid #111235;
+  border: none;
   border-radius: 13px;
   height: 40px;
   width: 255px;
-  padding-left: 15px;
+  padding: 0 0 0 15px;
+  font-family: hellix;
+  font-size: 14px;
+  background: url("https://assets.codepen.io/6060109/icon-send.png") white 95% 50% no-repeat; 
+}
+
+input::placeholder {
+  color: #111235;
+}
+
+#copyright {
+  margin-top: 60px;
+  font-weight: 500;
 }
